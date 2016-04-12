@@ -1,0 +1,8 @@
+ViewTreeObserver vto = mFanWallImageView.getViewTreeObserver();
+    vto.addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
+        public boolean onPreDraw() {
+            int height = mFanWallImageView.getMeasuredHeight();
+
+            return true;
+        }
+    });
