@@ -1,0 +1,10 @@
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+/**
+ * 
+ * User: HYZ(1101233283@qq.com) 
+ * Date: ${YEAR}-${MONTH}-${DAY} 
+ * Time: ${HOUR}:${MINUTE}
+ *  
+ */ 
+public class ${NAME} {
+}
